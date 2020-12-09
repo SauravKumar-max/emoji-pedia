@@ -39,7 +39,7 @@ export default function App() {
       <h1>EmojiPedia</h1>
       <input
         className="inputEl"
-        placeholder="Enter your flag emoji..."
+        placeholder="Enter your emoji..."
         onChange={emojiInputHandler}
       />
       <p className="meaning"> {meaning} </p>
